@@ -1,9 +1,9 @@
 {
 	"required": true,
-	"package": "com.example.mixin.client",
+	"package": "com.DurabilityLimit.mixin.client",
 	"compatibilityLevel": "JAVA_21",
 	"client": [
-		"ExampleClientMixin"
+		"DurabilityLimitClientMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

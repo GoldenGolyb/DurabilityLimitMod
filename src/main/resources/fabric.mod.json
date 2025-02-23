@@ -1,31 +1,30 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "DLid",
 	"version": "${version}",
-	"name": "Example mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "DurabilityLimitMod",
+	"description": "This mod shows that you have little durability left in the tool, use it!",
 	"authors": [
-		"Me!"
+		"GoldenGolyb"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/GoldenGolyb/DurabilityLimitMod.git"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/modid/icon.png",
+	"icon": "assets/DLid/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.ExampleMod"
+			"com.DurabilityLimit.DurabilityLimitMod"
 		],
 		"client": [
-			"com.example.ExampleModClient"
+			"com.DurabilityLimit.DurabilityLimitModClient"
 		]
 	},
 	"mixins": [
-		"modid.mixins.json",
+		"DLid.mixins.json",
 		{
-			"config": "modid.client.mixins.json",
+			"config": "DLid.client.mixins.json",
 			"environment": "client"
 		}
 	],
